@@ -18,14 +18,25 @@ using namespace std;
 
 int main()
 {
-        double 	num1 = 28,
-        		num2 = 32,
-        		num3 = 37,
-        		num4 = 24,
-        		num5 = 33,
+        double 	num1,
+        		num2,
+        		num3,
+        		num4,
+        		num5,
         		sum,
         		average;
         // Add all the numbers
+        cout << "This program will average out 5 numbers." << endl;
+        cout << "Enter number 1: ";
+        cin >> num1;
+        cout << "Enter number 2: ";
+        cin >> num2;
+        cout << "Enter number 3: ";
+        cin >> num3;
+        cout << "Enter number 4: ";
+        cin >> num4;
+        cout << "Enter number 5: ";
+        cin >> num5;
         sum = num1 + num2 + num3 + num4 + num5;
         // Average the numbers dividing sum by total numbers
         average = sum / 5;
